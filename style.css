@@ -1,0 +1,21 @@
+*
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+html
+    {
+        font-size: 62.5%;
+    }
+:root
+    {
+        --black: #000000;
+        --blue-botton: #1d9bf0;
+        --borders-color: #4e5e6a;
+    }
+body
+    {
+        font-size: 2.4rem;
+        background-color: var(--black);
+    }
