@@ -56,5 +56,12 @@ body
 .main-container .main-container__right-section
     {
         width: 46%;
-        height: 100vh;
+        height: 110vh;
+        display: flex;
+        justify-content: center;
+    }
+.main-container .main-container__right-section .content-right-section
+    {
+        height: 94%;
+        width: 95%;
     }
