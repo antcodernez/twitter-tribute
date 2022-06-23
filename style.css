@@ -89,7 +89,6 @@ body
     {       
         width: 32rem;
         height: 4.4rem;
-        background-color: antiquewhite;
         margin: 1rem;
         border-radius: 5rem;
         position: relative;
@@ -109,7 +108,19 @@ body
         border: none;
         font-size: 1.4rem;
         font-weight: bold;
-        color: var(--borders-color);   
+        color: var(--borders-color);
+        cursor: pointer;   
+    }
+.main-container .main-container__right-section .content-right-section .form-container .form-container__input-container-g-p label .input-apple
+    {
+        width: 32rem;
+        height: 4.4rem;
+        border-radius: 5rem;
+        border: none;
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #000000;
+        cursor: pointer;
     }
 .main-container .main-container__right-section .content-right-section .form-container .form-container__input-container-sign-up
     {
