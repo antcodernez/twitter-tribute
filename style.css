@@ -92,8 +92,25 @@ body
         background-color: antiquewhite;
         margin: 1rem;
         border-radius: 5rem;
+        position: relative;
     }
-
+.main-container .main-container__right-section .content-right-section .form-container .form-container__input-container-g-p label .form-container__input-container-g-p__icon
+    {
+        width: 2rem;
+        position: absolute;
+        left: 20%;
+        top: 26%;
+    }
+.main-container .main-container__right-section .content-right-section .form-container .form-container__input-container-g-p label .input
+    {
+        width: 32rem;
+        height: 4.4rem;
+        border-radius: 5rem;
+        border: none;
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: var(--borders-color);   
+    }
 .main-container .main-container__right-section .content-right-section .form-container .form-container__input-container-sign-up
     {
     background-color: var(--blue-botton);
