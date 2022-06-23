@@ -19,6 +19,7 @@ body
         font-size: 2.4rem;
         background-color: var(--black);
         color: var(white);
+        font-family: 'Roboto', sans-serif;
     }
 .main-container
     {
@@ -69,6 +70,8 @@ body
 .main-container .main-container__right-section .content-right-section figure img
     {
         width: 6rem;
+        margin-top: 2.4rem;
+        margin-left: 1rem;
     }
 .main-container .main-container__right-section .content-right-section h1
     {
@@ -129,6 +132,19 @@ body
     height: 4.4rem;
     margin: 1rem;
     border-radius: 5rem;
+    border: none;
+    }
+.main-container .main-container__right-section .content-right-section .form-container .form-container__input-container-sign-up .label .sign-up-button
+    {
+        width: 32rem;
+        height: 4.4rem;
+        border-radius: 5rem;
+        background-color: var(--blue-botton);
+        font-size: 1.4rem;
+        font-weight: bolder;
+        color: white;
+        cursor: pointer;
+        border: none;
     }
 .main-container .main-container__right-section .content-right-section .form-container .form-container__input-container-sign-in
     {
@@ -136,7 +152,18 @@ body
     height: 4.4rem;
     margin: 1rem;
     border-radius: 5rem;
-    border: solid 0.1rem rgb(83, 100, 113);
+    }
+.main-container .main-container__right-section .content-right-section .form-container .form-container__input-container-sign-in .input .sing-in
+    {
+        width: 32rem;
+        height: 4.4rem;
+        margin: 1rem;
+        border-radius: 5rem;
+        border: solid 0.1rem rgb(83, 100, 113);
+        background-color: transparent;
+        color: var(--blue-botton);
+        margin: 0 auto;
+        cursor: pointer;
     }
 .main-container .main-container__right-section .content-right-section .form-container .form-container__input-container-sign-in:hover
     {
