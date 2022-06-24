@@ -89,7 +89,7 @@ body
 .main-container .main-container__right-section .content-right-section .form-container
     {
         width: 40rem;  
-        height: 50rem;
+        height: 39rem;
         margin: 4rem 0 0 1rem;
     }
 .main-container .main-container__right-section .content-right-section .form-container .form-container__input-container-g-p
@@ -194,7 +194,12 @@ body
     {
         text-decoration: underline;
     }
-
+.main-container .main-container__right-section .content-right-section .form-container h3
+    {
+        font-size: 1.8rem;
+        margin-top: 8.8rem;
+        margin-left: 1rem;
+    }
 .main-container .main-container__right-section .content-right-section .form-container .form-container__input-container-sign-in
     {
     width: 32rem;
